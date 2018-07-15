@@ -11,7 +11,7 @@ ruby 2.4.2p198
 
 Confirmation was executed on CentOS 7.5.
 
-* Configuration
+* Deployment instructions
 
 (1) DBにユーザーを追加
 
@@ -23,7 +23,7 @@ Confirmation was executed on CentOS 7.5.
 
 	$ bundle install
 
-(3) PostgreSQLのアクセス情報を書き換える
+(3) config/database.ymlを環境に合わせて書き換える
 
 	default:
 	  adapter: postgresql
@@ -43,7 +43,6 @@ Confirmation was executed on CentOS 7.5.
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
 
 * License
