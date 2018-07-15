@@ -13,7 +13,7 @@ Confirmation was executed on CentOS 7.5.
 
 * Deployment instructions
 
-(1) DBにユーザーを追加
+(1) PostgreSQLにロールを追加
 
 	$ sudo -u postgres psql
 	postgres=# create role postgresample with createdb login password '<password>';
@@ -34,16 +34,17 @@ Confirmation was executed on CentOS 7.5.
 	  password: <password>
 	  host: localhost
 
+(4) PostgreSQLに初期データを作成する
 
-* Database creation
+	$ rails db:seed
 
-* Database initialization
+(5) 起動
 
-* How to run the test suite
+	$ rails s
 
-* Services (job queues, cache servers, search engines, etc.)
+(6) ブラウザからアクセスする
 
-
+	http://<FQDNまたはIPアドレス>:3000/
 
 * License
 
