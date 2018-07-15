@@ -1,0 +1,10 @@
+<h1>Movielist</h1>
+<p>
+現在登録されている映画のタイトルは次のとおりです。
+</p>
+
+<p>
+<% @movies.each do |movie| %>
+[title] <%= movie.title %>, [country] <%= movie.country %>, [director] <%= movie.director %><br />
+<% end %>
+</p>
