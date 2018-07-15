@@ -1,9 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+仕事でRailsアプリのメンテナンスを担当することになり、
+学習のためPostgreSQLを使ったRailsアプリのサンプルを作成しました。
 
 * Ruby version
 
@@ -17,24 +15,24 @@ Confirmation was executed on CentOS 7.5.
 
 (1) DBにユーザーを追加
 
-$ sudo -u postgres psql
-postgres=# create role postgresample with createdb login password '<password>';
-postgres=# \q
+	$ sudo -u postgres psql
+	postgres=# create role postgresample with createdb login password '<password>';
+	postgres=# \q
 
 (2) インストールを実行
 
-$ bundle install
+	$ bundle install
 
 (3) PostgreSQLのアクセス情報を書き換える
 
-default:
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
-  # 以下、3行を変更する
-  username: postgresample
-  password: <password>
-  host: localhost
+	default:
+	  adapter: postgresql
+	  encoding: unicode
+	  pool: 5
+	  # 以下、3行を変更する
+	  username: postgresample
+	  password: <password>
+	  host: localhost
 
 
 * Database creation
@@ -47,5 +45,9 @@ default:
 
 * Deployment instructions
 
-* ...
+
+* License
+
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+
 # rails-postgres-sample
