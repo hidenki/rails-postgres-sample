@@ -3,12 +3,12 @@
 仕事でRailsアプリのメンテナンスを担当することになり、
 学習のためPostgreSQLを使ったRailsアプリのサンプルを作成しました。
 
-* System requirement
+# System requirement
 
 - ruby 2.4.2p198
 - PostgreSQL 9.2.23
 
-* Deployment instructions
+# Deployment instructions
 
 (1) PostgreSQLにロールを追加
 
@@ -45,7 +45,7 @@
 
 	http://<FQDNまたはIPアドレス>:3000/
 
-* License
+# License
 
 [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
