@@ -5,8 +5,8 @@
 
 * System requirement
 
-** ruby 2.4.2p198
-** PostgreSQL 9.2.23
+- ruby 2.4.2p198
+- PostgreSQL 9.2.23
 
 * Deployment instructions
 
