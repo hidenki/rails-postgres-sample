@@ -34,8 +34,10 @@ Confirmation was executed on CentOS 7.5.
 	  password: <password>
 	  host: localhost
 
-(4) PostgreSQLに初期データを作成する
+(4) PostgreSQLを初期化する
 
+	$ rails db:create
+	$ rails db:migrate
 	$ rails db:seed
 
 (5) 起動
