@@ -3,13 +3,10 @@
 仕事でRailsアプリのメンテナンスを担当することになり、
 学習のためPostgreSQLを使ったRailsアプリのサンプルを作成しました。
 
-* Ruby version
+* System requirement
 
-ruby 2.4.2p198
-
-* System dependencies
-
-Confirmation was executed on CentOS 7.5.
+** ruby 2.4.2p198
+** PostgreSQL 9.2.23
 
 * Deployment instructions
 
